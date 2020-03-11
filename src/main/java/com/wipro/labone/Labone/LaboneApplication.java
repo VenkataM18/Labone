@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LaboneApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LaboneApplication.class, args);
+        System.out.println("Inside LaboneApplication");
+	    SpringApplication.run(LaboneApplication.class, args);
+
 	}
 
 }
